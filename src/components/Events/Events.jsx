@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../Footer/Footer";
 
 // Sample initial data for events
 const initialEvents = [
@@ -122,6 +123,7 @@ const Events = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import imgg from '../../assets/g1.jpg';
+import Footer from '../Footer/Footer';
 
 const Testimonals = () => {
   const testimonials = [
@@ -93,6 +94,7 @@ const Testimonals = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

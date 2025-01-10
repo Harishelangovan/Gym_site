@@ -6,6 +6,7 @@ import React from 'react';
  import coach from '../../assets/coach.jpg';
  import traine from '../../assets/trainer3.jpg';
  import traine2 from '../../assets/trainer2.jpg'
+import Footer from '../Footer/Footer';
 
 const About = () => {
   return (
@@ -159,9 +160,7 @@ const About = () => {
       </section>
 
       {/* Footer */}
-      <footer className="text-center mt-12">
-        <p className="text-gray-500 text-lg">© 2025 SSkingdom Gym. All rights reserved.</p>
-      </footer>
+     <Footer/>
 
     </div>
   );
