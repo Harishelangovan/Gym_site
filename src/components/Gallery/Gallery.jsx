@@ -7,6 +7,7 @@ import img3 from '../../assets/t7.jpg';
 import img4 from '../../assets/nutrition.jpg';
 import img5 from '../../assets/cf.jpg';
 import img6 from '../../assets/st.jpg';
+import Footer from '../Footer/Footer';
 
 const Gallery = () => {
   const [showModal, setShowModal] = useState(false);
@@ -107,6 +108,7 @@ const Gallery = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };

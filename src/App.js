@@ -8,7 +8,6 @@ import About from './components/Aboutpage/Aboutpage';
 import Testimonals from './components/Testimonals/Testimonals';
 import CustomNavbar from './components/navbar/navbar';
 import Events from './components/Events/Events';
-import Footer from './components/Footer/Footer';
 import Signin from './components/Authentication/Signin';
 import Signup from './components/Authentication/Signup';
 
@@ -33,7 +32,6 @@ function App() {
         <Route path="/events" element={<Events />} />
       </Routes>
       
-      {/* <Footer /> */}
     </div>
   );
 }

@@ -11,6 +11,7 @@ import image3 from "../../assets/strength.jpg";
 import serviceImage1 from "../../assets/s4.jpg";
 import serviceImage2 from "../../assets/s5.jpg";
 import serviceImage3 from "../../assets/st.jpg";
+import Footer from "../Footer/Footer";
 
 const Homepage = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -297,6 +298,7 @@ const Homepage = () => {
           Get Started
         </button>
       </div>
+      <Footer />
     </div>
   );
 };
